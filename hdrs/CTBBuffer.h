@@ -1,0 +1,1 @@
+#ifndef __CTBBUFFER__#define __CTBBUFFER__void	InitCTBBuffer(void);void	TerminateCTBBuffer(void);Boolean ServiceRead(Ptr data, Size	*length);OSErr ServiceWrite(UInt16 sendTo, Ptr data, Size length);#endif //__CTBBUFFER__

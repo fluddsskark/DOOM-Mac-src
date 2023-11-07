@@ -1,0 +1,1 @@
+#ifndef __SNDSERVER_H__#define __SNDSERVER_H__#define SAMPLECOUNT 512#define MIXBUFFERSIZE (SAMPLECOUNT*2*2)#define SPEED 11025#endif
