@@ -1,0 +1,1 @@
+/* MacAllocA.c */Boolean InitAllocA(tLong initialStackSize);void PushRoutineAllocA(void);void PopRoutineAllocA(void);void *alloca(tLong sizeNeeded);

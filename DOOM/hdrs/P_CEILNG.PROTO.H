@@ -1,0 +1,1 @@
+/* P_CEILNG.C */void T_MoveCeiling(ceiling_t *ceiling);int EV_DoCeiling(line_t *line, ceiling_e type);void P_AddActiveCeiling(ceiling_t *c);void P_RemoveActiveCeiling(ceiling_t *c);void P_ActivateInStasisCeiling(line_t *line);int EV_CeilingCrushStop(line_t *line);

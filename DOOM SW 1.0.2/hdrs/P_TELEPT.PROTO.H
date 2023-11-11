@@ -1,0 +1,1 @@
+/* P_TELEPT.C */int EV_Teleport(line_t *line, int side, mobj_t *thing);

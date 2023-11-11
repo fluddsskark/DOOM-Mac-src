@@ -1,0 +1,1 @@
+// ===========================================================================//	PP_MacHeaders.pch				©1994 Metrowerks Inc. All rights reserved.// ===========================================================================#ifdef powerc	#pragma precompile_target "PP_MacHeadersPPC"	#else	#pragma precompile_target "PP_MacHeaders68K"#endif#include <PP_MacHeaders.c>

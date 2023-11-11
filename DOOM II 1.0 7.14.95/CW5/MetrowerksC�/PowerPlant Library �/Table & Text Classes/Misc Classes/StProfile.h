@@ -1,0 +1,1 @@
+//	===========================================================================//	StProfile.h					©1994 Metrowerks Inc. All rights reserved.//	===========================================================================#pragma	onceclass	StProfile {public:	StProfile();	~StProfile();};

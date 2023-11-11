@@ -1,0 +1,1 @@
+#if __MWERKS__#pragma options align=mac68k#include <_stdarg.h>#pragma options align=reset#endif/* Change log: *94June04 PlumHall baseline *94Sept30 Applied diffs for Wed Aug 31 07:55:38 1994 *94Oct07 Inserted MW changes. */

@@ -1,0 +1,1 @@
+set name "{command}"set oldexit {exit}set exit 0set temp "{TempFolder}"¥¥mcc-driver-temp¥¥set cwd "`execute directory`"export cwd name rvaldriver_mcc {"parameters"} > "{temp}"set rval {status}#catenate "{temp}""{temp}"set rval {status}delete -i -y "{temp}"set exit {oldexit}unexport cmd name rvalunset cmd name oldexit tempexit "{rval}"

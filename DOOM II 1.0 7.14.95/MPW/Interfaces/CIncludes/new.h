@@ -1,0 +1,1 @@
+/*_ new.hpp   Fri Aug 10 1990   Modified by: Walter Bright */// 	Copyright Symantec Corp 1990-1992. All Rights Reserved.////	Some portions Copyright © 1994 Apple Computer Inc.extern "C++" {void *operator new(unsigned, void *);void (*set_new_handler (void (*)()))();}

@@ -1,0 +1,1 @@
+/* P_SWITCH.C */void P_InitSwitchList(void);void P_StartButton(line_t *line, bwhere_e w, int texture, int time);void P_ChangeSwitchTexture(line_t *line, int useAgain);boolean P_UseSpecialLine(mobj_t *thing, line_t *line, int side);

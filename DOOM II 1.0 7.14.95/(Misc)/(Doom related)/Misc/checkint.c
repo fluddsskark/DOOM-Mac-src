@@ -1,0 +1,1 @@
+#include <stdio.h>main(){	printf("Int %d\n",sizeof(int));	printf("long %d\n",sizeof(long));}

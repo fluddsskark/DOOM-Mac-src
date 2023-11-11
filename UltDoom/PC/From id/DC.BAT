@@ -1,0 +1,1 @@
+dcolors \gfx\akuseme.lbm

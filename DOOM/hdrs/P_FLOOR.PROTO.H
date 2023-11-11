@@ -1,0 +1,1 @@
+/* P_FLOOR.C */result_e T_MovePlane(sector_t *sector, fixed_t speed, fixed_t dest, boolean crush, int floorOrCeiling, int direction);void T_MoveFloor(floormove_t *floor);int EV_DoFloor(line_t *line, floor_e floortype);int EV_BuildStairs(line_t *line, stair_e type);

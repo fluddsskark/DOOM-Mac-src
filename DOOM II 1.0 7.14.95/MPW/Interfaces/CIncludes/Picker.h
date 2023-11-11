@@ -1,0 +1,1 @@
+/* 	"Picker.h" has been renamed to "ColorPicker.h"		This file has been included to allow older source code 	to #include <Picker.h>.  Please update your source	could to directly #include <ColorPicker.h>*/#include <ColorPicker.h>

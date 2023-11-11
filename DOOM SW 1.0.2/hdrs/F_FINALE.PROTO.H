@@ -1,0 +1,1 @@
+/* F_FINALE.C */void F_StartFinale(void);boolean F_Responder(event_t *event);void F_Ticker(void);void F_TextWrite(void);void F_StartCast(void);void F_CastTicker(void);boolean F_CastResponder(event_t *ev);void F_CastPrint(char *text);void F_CastDrawer(void);void F_DrawPatchCol(int x, patch_t *patch, int col);void F_BunnyScroll(void);void F_Drawer(void);

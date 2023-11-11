@@ -1,0 +1,1 @@
+#include <stdio.h>void main(void){	printf("Hello World on the PowerPC!\n");}

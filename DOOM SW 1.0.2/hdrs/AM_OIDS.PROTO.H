@@ -1,0 +1,1 @@
+/* AM_OIDS.C */boolean AM_oInRock(amo_rock_t *rock, fixed_t x, fixed_t y);void AM_oUpdateBullets(void);void AM_oTicker(void);void AM_oDrawer(void);void AM_oInitData(void);void AM_oStart(void);

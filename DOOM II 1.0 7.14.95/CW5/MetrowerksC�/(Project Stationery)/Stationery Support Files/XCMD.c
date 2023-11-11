@@ -1,0 +1,1 @@
+#include <HyperXCmd.h>#include <A4Stuff.h>pascal void main( XCmdPtr	paramPtr ){	long	oldA4 = SetCurrentA4();	//A4 must be set up for globals, strings, and 									//inter-segment calls 		SysBeep ( 4 );		SetA4(oldA4);}

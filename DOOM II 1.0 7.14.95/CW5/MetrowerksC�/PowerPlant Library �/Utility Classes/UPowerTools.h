@@ -1,0 +1,1 @@
+// ===========================================================================//	UPowerTools.h					©1993 Metrowerks Inc. All rights reserved.// ===========================================================================#pragma once#include <PP_Prefix.h>class	LMenu;void	InitializeToolbox();void	CheckForInitialMBAR();

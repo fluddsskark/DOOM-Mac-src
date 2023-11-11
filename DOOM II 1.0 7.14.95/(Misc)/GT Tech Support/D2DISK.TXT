@@ -1,0 +1,92 @@
+DOOM II Software Checklist (3.5”)
+July 3, 1995
+Lion Entertainment, Inc.
+Jason Mann (512) 323-2883 x113
+
+A. System Requirements
+
+1. Operating System
+Minimum available memory is 4500K.
+Optimal available memory is 8000K.
+To make more memory available, move unneeded extensions from System Folder and restart.
+
+2. Graphics Requirements
+640 x 480 monitor, 256-color/grays
+
+4. Sound card requirements
+Sound cards which support Sound Manager 3.0 and QuickTime 2.0.
+
+5. Accepted Input Devices
+See “Joystics - Read Me” document in the Joysticks folder included with the game.
+
+B. Multiplayer Capabilities
+1. Does this software support serial link?
+There are two ways to create a serial link.  The most direct way is to choose one of the two serial connections in the Multiplayer Setup dialog.  The other way is to use the Communication Toolbox and select the included Serial Tool.
+
+2. Does this software support modem use?
+Can be used with any modem that supports “Apple Modem Tool” (included). Otherwise the user must have a tool for their modem which can be used with the Communication Toolbox.
+
+C. Media/Format Information
+DISKS
+“DOOM II Disk 1” contains the file “DOOM II Installer”
+“DOOM II Disk 2” contains the file “Installer Data 2”
+“DOOM II Disk 3” contains the file “Installer Data 3”
+“DOOM II Disk 4” contains the file “Installer Data 4”
+“DOOM II Disk 5” contains the file “Installer Data 5”
+“DOOM II Disk 6” contains the file “Installer Data 6”
+“DOOM II Disk 7” contains the file “Installer Data 7”
+
+
+
+D. Software Installation/Content/Description
+1. Installation Information
+List of files configuration files created/copied for software play.
+The first time the game is launched a file called “Doom II Preferences” is created in the Preferences folder within the System Folder.
+
+
+List of files and directories for all files on hard drive after full installation.
+Creates the folder
+“Doom II”
+The Doom II folder contains the files 
+“Doom II”, 	-the game application
+“DOOM2.WAD” -the level and play information used by the application 
+The Doom II folder contains the folders 
+“Joysticks”,
+“Music”.
+
+The Joysticks folder contains the application,
+“Joysticks - Read Me” 
+The Joysticks folder contains the folders,
+“Flightstick Pro”, 
+“Gravis Mac GamePad”,
+“Gravis MouseStick II” 
+
+The Flightstick Pro folder contains the setup file,
+“Doom II-Settings” 
+
+The Gravis Mac GamePad folder contains the setup file,
+“Doom II” 
+
+The Gravis MouseStick II folder contains the setup file,
+“Doom II” 
+
+The Music folder contains 71 files, all ending in “.MID!” which are MIDI music files
+
+
+Places the following files in the Control Panels folder within the System Folder.
+“Sound”, -sound control panel for Sound Manager 3.0
+“MacIPX” -control panel used for IPX network play
+
+Places the following files in the Extensions folder within the System Folder.
+“Sound Manager” - Enhanced sound
+“QuickTime”, - needed to play the MIDI music files	
+“QuickTime PowerPlug”, - for PowerPC to play the MIDI music files
+“QuickTime Musical Instruments”, - needed to play the MIDI music files
+“Apple Modem Tool”, - used when playing over modem
+“Serial Tool”, -used when playing serial game with Communication Toolbox
+“MacIPX Token Ring”, -used for IPX Token Ring network game
+“MacIPX Ethernet”, -used for IPX Ethernet network game
+“MacIPX AppleTalk”, -used for IPX AppleTalk network game
+
+Configuration - The only required configuration is done automatically.  After installation, the user must restart the computer to initialize any changes to the system folder.  When the game is first launched, the Doom II Preferences folder is created in the Preferences folder.
+

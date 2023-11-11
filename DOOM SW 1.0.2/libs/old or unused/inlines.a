@@ -1,0 +1,1 @@
+__D0 LONG(__D1)	move.b		D1,D0	lsl.l		#8,D0	lsr.l		#8,D1	move.b		D1,D0	lsl.l		#8,D0	lsr.l		#8,D1	move.b		D1,D0	lsl.l		#8,D0	lsr.l		#8,D1	move.b		D1,D0	__D0 SHORT(__D1)	move.b		D1,D0	lsl.l		#8,D0	lsr.l		#8,D1	move.b		D1,D0	

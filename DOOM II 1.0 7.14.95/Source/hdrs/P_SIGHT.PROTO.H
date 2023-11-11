@@ -1,0 +1,1 @@
+/* P_SIGHT.C */int P_DivlineSide(fixed_t x, fixed_t y, divline_t *node);fixed_t P_InterceptVector2(divline_t *v2, divline_t *v1);boolean P_CrossSubsector(int num);boolean P_CrossBSPNode(int bspnum);boolean P_CheckSight(mobj_t *t1, mobj_t *t2);

@@ -1,0 +1,1 @@
+#include <stdio.h>main(){	FILE *f;	f=popen("sndserver -quiet", "w");}

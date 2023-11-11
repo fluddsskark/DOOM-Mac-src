@@ -1,0 +1,4 @@
+cd /flem/doom/data_se
+echo building wadlink for episode 1-4
+cc -E -DDOOM2 wadlink.txt > wadlink.wl
+wadlink

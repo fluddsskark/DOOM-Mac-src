@@ -1,0 +1,1 @@
+/* * wds.h * * Copyright (C) 1992-1994 Novell, Inc. * All rights reserved. */#ifndef __WDS_INCLUDED__#define __WDS_INCLUDED__#if defined(powerc) || defined (__powerc)#pragma options align=mac68k#endiftypedef struct wds {	short	len;	char	*data;} WDS, RDS;#if defined(powerc) || defined(__powerc)#pragma options align=reset#endif#endif /* __WDS_INCLUDED__ */

@@ -1,0 +1,1 @@
+#	{PPCCIncludes} - Directories to search for PowerPC include files.			Set PPCCIncludes "{MPW}Interfaces:CIncludes:"			Export PPCCIncludes#	{PPCLibraries} - Directory that contains PowerPC libraries. 			Set PPCLibraries "{MPW}"Libraries:PPCLibraries:			Export PPCLibraries

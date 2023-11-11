@@ -1,0 +1,1 @@
+/*    A small program to load and call the code resource which    demonstrates the profiler in a code resource.*/#include <Resources.h>void main(void){	Handle	h;		h = GetResource('TEST', 128);	if (h)	{		HLock(h);		(*(ProcPtr)*h)();		HUnlock(h);	}}

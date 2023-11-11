@@ -1,0 +1,1 @@
+#include <Types.h>#include <FixMath.h>#include <ToolUtils.h>typedef int boolean;#define V_DrawPatchDirect		V_DrawPatch#define	DEVMAPS#define DEVDATA#define far#define __far#define __interrupt#ifndef FALSE	#ifndef TRUE		enum { FALSE, TRUE };	#endif#endifextern Boolean				gHiRes;

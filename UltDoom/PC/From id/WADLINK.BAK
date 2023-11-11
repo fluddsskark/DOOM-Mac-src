@@ -1,0 +1,263 @@
+;===================================================
+;=== WADLINK.WL -- This links all of Dooms WADs. ===
+;===================================================
+#ifdef DOOM2
+$WADNAME        doom
+#else
+$WADNAME        doom1
+#endif
+
+playpal.lmp
+colormap.lmp
+
+#ifndef DOOM2
+
+end1\endoom.bin
+demos1\demo1.lmp
+demos1\demo2.lmp
+demos1\demo3.lmp
+
+#else
+
+end2\endoom.bin
+demos2\demo1.lmp
+demos2\demo2.lmp
+demos2\demo3.lmp
+
+#endif
+
+;===================================================
+; DoomEd Icons- DON'T DELETE THESE!
+;       $label  ICON_START
+
+;       $label  i-weapons
+;       $shootwad       \gfx\icons\icons_w
+;       $label  i-ammo
+;       $shootwad       \gfx\icons\icons_a
+;       $label  i-health
+;       $shootwad       \gfx\icons\icons_h
+;       $label  i-bonus
+;       $shootwad       \gfx\icons\icons_b
+;       $label  i-power
+;       $shootwad       \gfx\icons\icons_p
+;       $label  i-freds
+;       $shootwad       \gfx\icons\icons_f
+;       $label  i-cards
+;       $shootwad       \gfx\icons\icons_c
+;       $label  i-misc
+;       $shootwad       \gfx\icons\icons_m
+
+;       $label  ICON_END
+
+;===================================================
+;======================= MAPS ======================
+$shootwad      \data\e1m1
+$shootwad      \data\e1m2
+$shootwad      \data\e1m3
+$shootwad      \data\e1m4
+$shootwad      \data\e1m5
+$shootwad      \data\e1m6
+$shootwad      \data\e1m7
+$shootwad      \data\e1m8
+$shootwad      \data\e1m9
+
+#ifdef DOOM2
+$shootwad      \data\e2m1
+$shootwad      \data\e2m2
+$shootwad      \data\e2m3
+$shootwad      \data\e2m4
+$shootwad      \data\e2m5
+$shootwad      \data\e2m6
+$shootwad      \data\e2m7
+$shootwad      \data\e2m8
+$shootwad      \data\e2m9
+
+$shootwad      \data\e3m1
+$shootwad      \data\e3m2
+$shootwad      \data\e3m3
+$shootwad      \data\e3m4
+$shootwad      \data\e3m5
+$shootwad      \data\e3m6
+$shootwad      \data\e3m7
+$shootwad      \data\e3m8
+$shootwad      \data\e3m9
+#endif
+
+texture1.lmp
+#ifdef DOOM2
+texture2.lmp
+#endif
+pnames.lmp
+
+;===================================================
+;===================== SOUND =======================
+
+\sound\genmidi.lmp
+\sound\dmxgus.lmp
+$shootwad \sound\sounds1
+#ifdef DOOM2
+$shootwad \sound\sounds23
+#endif
+
+;===================================================
+;==================== SCREENS ======================
+
+$shootwad       \gfx\screens\help
+$shootwad       \gfx\screens\credits
+
+#ifdef DOOM2
+$shootwad       \gfx\screens\victory2
+$shootwad       \gfx\screens\title
+$shootwad       \gfx\screens\pfub
+$shootwad       \gfx\screens\end
+
+#else
+$shootwad       \gfx\screens\stitle 
+
+#endif
+
+;===================================================
+;===================== AUTOMAP =====================
+
+$shootwad       \gfx\amap\amap
+
+;===================================================
+;===================== SBAR ========================
+
+$shootwad       \gfx\sbar\sbar
+$shootwad       \gfx\sbar\faces
+
+;===================================================
+;===================== MENUS =======================
+$shootwad       \gfx\menu\menus
+$shootwad       \gfx\menu\border
+
+
+;=================== WORLD MAPS ====================
+;       $shootwad       \gfx\screens\worldmap
+$shootwad       \gfx\inter\wmap1
+#ifdef DOOM2
+$shootwad       \gfx\inter\wmap2
+$shootwad       \gfx\inter\wmap3
+#endif
+
+$shootwad       \gfx\inter\text
+
+
+;===================================================
+;===================== SPRITE PIX ==================
+
+$label          s_start
+
+$shootwad       \gfx\playpix\chaingun
+$shootwad       \gfx\playpix\chainsaw
+$shootwad       \gfx\playpix\pistol
+$shootwad       \gfx\playpix\ppix
+$shootwad       \gfx\playpix\punch
+$shootwad       \gfx\playpix\rocket
+$shootwad       \gfx\playpix\shotgun
+
+#ifdef DOOM2
+$shootwad       \gfx\playpix\plasgun
+$shootwad       \gfx\playpix\bfg
+#endif
+
+;================= SARGEANT DEMON ==================
+$shootwad       \gfx\enemy\sargeant\sargeant
+
+;=================== TROOP DEMON ==================
+$shootwad       \gfx\enemy\troop\troop
+
+;================ BRUISER BROTHER ==================
+$shootwad       \gfx\enemy\bruiser\bruiser
+
+;=================== PLAYER CHAR ==================
+$shootwad       \gfx\humans\humans
+
+;================= POSSESED HUMAN =================
+$shootwad       \gfx\enemy\posessed\evildead
+
+;=========== POSSESED HUMAN WITH SHOTGUN ==========
+$shootwad       \gfx\enemy\posessed\sdemon
+
+
+#ifdef DOOM2
+
+;=================== SKULL DEMON ==================
+$shootwad       \gfx\enemy\skull\skull
+
+;==================== EYE DEMON ==================
+$shootwad       \gfx\enemy\eye\eye
+
+;================ CYBER DEMON ==================
+$shootwad       \gfx\enemy\cyber\cyber
+
+;================ SPIDER DEMON ==================
+$shootwad       \gfx\enemy\spider\spider
+
+#endif
+
+;===================================================
+;================== STATIC SPRITES =================
+$shootwad       \gfx\sprites\e1spr
+
+#ifdef DOOM2
+$shootwad       \gfx\sprites\e23spr
+#endif
+
+$label          s_end
+
+;==================================================
+;       DOOM Episode 1 patches ONLY
+;==================================================
+$label          p_start
+$label          p1_start
+$shootwad       \gfx\walls\e1walls\walls
+$shootwad       \gfx\walls\e1walls\misc
+$shootwad       \gfx\walls\e1doors\doors
+$shootwad       \gfx\patches\e1patch\patches
+$shootwad       \gfx\patches\e1patch\switches
+$shootwad       \gfx\backdrop\e1sky
+$label          p1_end
+
+;==================================================
+;       DOOM 2 & 3 patches
+;==================================================
+#ifdef DOOM2
+$label          p2_start
+$shootwad       \gfx\walls\e23walls\walls
+$shootwad       \gfx\walls\e23doors\doors
+$shootwad       \gfx\walls\e23walls\snakes
+$shootwad       \gfx\walls\e23walls\hwalls
+$shootwad       \gfx\walls\e23walls\spines
+$shootwad       \gfx\walls\e23walls\swalls
+$shootwad       \gfx\walls\e23walls\mwalls
+$shootwad       \gfx\walls\e23walls\redpipes
+$shootwad       \gfx\patches\e23patch\switches
+$shootwad       \gfx\backdrop\e23sky
+$label          p2_end
+#endif
+
+
+$label          p_end
+
+;===================================================
+;=================== FLATS PIX =====================
+$label          f_start
+$label          f1_start
+$shootwad       \gfx\flats\e1floor\floors
+$shootwad       \gfx\flats\e1ceils\ceils
+$shootwad       \gfx\flats\e1both\misc
+$shootwad       \gfx\backdrop\e1tiles
+$label          f1_end
+
+#ifdef DOOM2
+$label          f2_start
+$shootwad       \gfx\flats\e23floor\floors
+$shootwad       \gfx\flats\e23ceils\ceils
+$shootwad       \gfx\flats\e23both\misc
+$shootwad       \gfx\backdrop\e23tiles
+$label          f2_end
+#endif
+
+$label          f_end

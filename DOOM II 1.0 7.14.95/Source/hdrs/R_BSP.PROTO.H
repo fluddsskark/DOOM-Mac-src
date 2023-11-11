@@ -1,0 +1,1 @@
+/* R_BSP.C */void R_ClearDrawSegs(void);void R_ClipSolidWallSegment(int first, int last);void R_ClipPassWallSegment(int first, int last);void R_ClearClipSegs(void);void R_AddLine(seg_t *line);boolean R_CheckBBox(fixed_t *bspcoord);void R_Subsector(int num);void R_RenderBSPNode(int bspnum);

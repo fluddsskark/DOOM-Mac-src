@@ -1,0 +1,1 @@
+Notes:1.  Replaced "normal" with "e_normal" because of conflict with <Types.h>.2.  Made "int" 4 bytes.3.	Changed "FixedMul" to "FixMul" to use Mac Toolbox call.4.  "alloca" is now internal library: see MacAlloca.h/c. Also note it can fail		horribly.

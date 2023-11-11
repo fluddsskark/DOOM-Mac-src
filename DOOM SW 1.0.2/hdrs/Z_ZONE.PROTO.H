@@ -1,0 +1,1 @@
+/* Z_ZONE.C */void Z_ClearZone(memzone_t *zone);void Z_Init(void);void Z_Free(void *ptr);void *Z_Malloc(int size, int tag, void *user);void Z_FreeTags(int lowtag, int hightag);void Z_DumpHeap(int lowtag, int hightag);void Z_FileDumpHeap(FILE *f);void Z_CheckHeap(void);void Z_ChangeTag2(void *ptr, int tag);int Z_FreeMemory(void);

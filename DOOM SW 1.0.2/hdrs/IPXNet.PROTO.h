@@ -1,0 +1,1 @@
+/* I_PCNET.C */unsigned short OpenSocket(unsigned short socketNumber);void ListenForPacket(IPX_ECB *ecb);void GetLocalAddress(void);void I_ShutdownNet(void);void I_InitNetwork(void);void SendPacket(int destination);boolean GetPacket(void);void SerialRead(void);void SerialWrite(void);void SerialInit(void);void SerialShutdown(void);

@@ -1,0 +1,12 @@
+c:\localid\doom1.wad: e:\doom\data\doom1.wad
+	mkdir c:\localid
+	copy e:\doom\data\doom1.wad c:\localid
+
+c:\localid\doom.wad: e:\doom\data\doom.wad
+	mkdir c:\localid
+	copy e:\doom\data\doom.wad c:\localid
+
+c:\localid\doom2.wad: e:\doom\cdata\doom2.wad
+	mkdir c:\localid
+	copy e:\doom\cdata\doom2.wad c:\localid
+
